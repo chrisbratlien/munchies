@@ -1,0 +1,378 @@
+
+.clear
+{
+    clear: both;
+}
+
+.deal-not-found,
+.no-deals
+{
+    font-family: Arial, Sans-Serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000000;
+    background-color: #e6e6e6;
+    border: 1px solid #999999;
+    text-align: center;
+    padding: 25px;
+    margin: 15px;
+}
+
+
+
+
+.expired-deal
+{
+    border: 1px solid #999999;
+    margin: 15px;
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+
+.expired-deal .expiration-messaging
+{
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+    width: 275px;
+    float: right;
+    font-size: 14px;
+}
+
+.expired-deal .expiration-message,
+.expired-deal .expiration-checkout-deals-below
+{
+    display: inline;
+}
+
+.expired-deal .expired-product
+{
+    float: left;
+}
+
+.expired-deal .product-image
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+}
+
+.expired-deal .product-image img
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.expired-deal .product-details
+{
+    float: left;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.expired-deal .product-name
+{
+}
+
+.expired-deal .product-name a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: #0066cc;
+}
+
+.expired-deal .product-price
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.expired-deal .product-buy a
+{
+    font-size: 13px;
+    color: #0066cc;
+    font-weight: bold;
+}
+
+
+
+
+.deal
+{
+    font-size: 12px;
+    font-family: Arial, Sans-Serif;
+    margin: 15px;
+    clear: both;
+    max-width: 900px;
+}
+
+.deal .deal-image
+{
+    float: right;
+    width: 250px;
+    max-height: 250px;
+    padding: 15px;
+    text-align: center;
+}
+
+.deal .deal-image img
+{
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.deal .deal-details
+{
+    padding: 15px 0px 15px 15px;
+    margin-right: 280px;
+    position: relative;
+}
+
+.deal .deal-headline
+{
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #cccccc;
+    line-height: 28px;
+}
+
+.deal .deal-product-name
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deal .deal-product-name a
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.deal .deal-pricing
+{
+    /*background-color: #000000;*/
+    height: 70px;
+    color: #ffffff;
+    background-position: center right;
+    padding-left: 10px;
+    margin-left: -20px;
+}
+
+.deal .deal-end
+{
+    padding: 16px;
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.deal .deal-end .deal-end-date
+{
+    display: inline;
+}
+
+.deal .deal-description
+{
+    clear: both;
+    padding: 15px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.deal .deal-social
+{
+    clear: both;
+    padding: 15px;
+}
+
+.deal .deal-regular-price,
+.deal .deal-savings,
+.deal .deal-stock
+{
+    float: left;
+    width: 33%;
+    text-align: center;
+    padding-top: 16px;
+}
+
+.deal.no-stock .deal-regular-price,
+.deal.no-stock .deal-savings,
+.deal.no-stock .deal-stock
+{
+    width: 49%;
+}
+
+.deal .deal-regular-price-value,
+.deal .deal-savings-value,
+.deal .deal-stock-value
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.deal .deal-regular-price-caption,
+.deal .deal-savings-caption,
+.deal .deal-stock-caption
+{
+    font-weight: bold;
+    color: #999999;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.deal .deal-price
+{
+    font-weight: bold;
+    font-size: 52px;
+    padding-left: 10px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 4px;
+}
+
+.deal-price-decimal
+{
+    display: none;
+}
+
+.deal-price-currency,
+.deal-price-dollars,
+.deal-price-cents
+{
+    display: inline;
+    margin-left: -8px;
+    vertical-align: top;
+    padding: 0px;
+    letter-spacing: -3px;
+}
+
+.deal-price-currency,
+.deal-price-cents
+{
+    font-size: 30px;
+    line-height: 49px;
+    top: 0px;
+    vertical-align: super;
+    letter-spacing: normal;
+}
+
+.deal-price-vat
+{
+    font-size: 12px;
+    top: -2px;
+    margin-left: -38px;
+}
+
+.no-cents .deal-price-vat
+{
+    margin-left: -10px;
+}
+
+.deal-regular-price-decimal
+{
+    display: none;
+}
+
+.deal-regular-price-currency,
+.deal-regular-price-dollars,
+.deal-regular-price-cents
+{
+    display: inline;
+    margin-left: -6px;
+    vertical-align: top;
+    padding: 0px;
+    letter-spacing: -1px;
+}
+
+.deal-regular-price-currency,
+.deal-regular-price-cents
+{
+    font-size: 19px;
+    line-height: 27px;
+    top: 0px;
+    vertical-align: super;
+    margin-right: 3px;
+}
+
+.deal-regular-price-vat
+{
+    font-size: 9px;
+    margin-top: -2px;
+    margin-left: -24px;
+}
+
+.no-cents .deal-regular-price-vat
+{
+    margin-left: 0px;
+}
+
+.deal .deal-buy-now
+{
+    width: 115px;
+    height: 46px;
+    float: right;
+    margin-top: 12px;
+    margin-right: 30px;
+    background-color: #38c400;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.deal .deal-buy-now a,
+.deal .deal-buy-now.sold-out
+{
+    font-size: 32px;
+    color: #ffffff;
+    display: block;
+    width: 115px;
+    height: 46px;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    /*
+    text-shadow: #333333 3px 3px 3px;
+    filter: Shadow(Color=#333333, Direction=135, Strength=3);
+    */
+}
+
+.deal .deal-buy-now.sold-out
+{
+    background-color: #CE0000;
+    width: 155px;
+}
+
+.deal-saving-stock-details
+{
+    height: 86px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.deal .deal-social .addthis_button
+{
+    margin-right: 10px;
+}
+
+.deal
+{
+    border-bottom: 2px solid #999999;
+}
+
+.first-deal,
+.last-deal
+{
+    border-bottom: 0px solid #ffffff !important;
+}

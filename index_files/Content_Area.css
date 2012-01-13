@@ -1,0 +1,224 @@
+font{
+	color:#000;
+}
+
+table,
+td{
+	font-size:12px;
+	list-style:inside;
+}
+
+textarea,
+input{
+	font-size:12px;
+	color:#000;
+}
+
+form{
+	margin:0px;
+}
+
+.bgcolor1{
+	font-size:12px;
+}
+
+.bgcolor3{
+	font-size:12px;
+}
+
+.bglinecolor{
+
+}
+
+.productnamecolorLARGE,
+a.productnamecolorLARGE {
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+a.productnamecolorLARGE:hover{
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	}
+
+.productnamecolor,
+a.productnamecolor{
+	font-size:12px;
+	text-decoration:none;}
+
+a.productnamecolor:hover{
+	text-decoration:none;}
+
+.productnamecolorSMALL{
+	font-size:10px;}
+
+a.productnamecolorSMALL{
+	font-size:10px;
+	text-decoration:none;
+}
+
+a.productnamecolorSMALL:hover{
+	text-decoration:none;
+}
+
+.pricecolor{
+	font-size:12px;
+}
+
+a.pricecolor,
+a.pricecolor:hover{
+	font-size:12px;
+	text-decoration:none;}
+
+.pricecolorSMALL{
+	font-size:10px;
+}
+
+a.pricecolorSMALL,
+a.pricecolorSMALL:hover{
+	font-size:10px;
+	text-decoration:none;
+}
+
+a.RegularLink{
+	font-size:14px;
+	text-decoration:none;
+}
+
+a.RegularLink:hover{
+	text-decoration:underline;
+}
+
+.smalltext{
+	font-size:10px;
+}
+
+a.smalltext,
+a.smalltext:hover{
+	font-size:10px;
+	text-decoration:none;}
+
+.nav1,
+a.nav1{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.nav1:hover{
+	text-decoration:none;
+}
+
+.nav1_selected,
+a.nav1_selected{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.nav1_selected:hover{
+	text-decoration:none;
+}
+
+.nav2,
+a.nav2{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.nav2:hover{
+	text-decoration:none;
+}
+
+.nav2_selected,
+a.nav2_selected{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.nav2_selected:hover{
+	text-decoration:none;
+}
+
+.nav3,
+a.nav3{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.nav3:hover{
+	text-decoration:none;}
+
+.nav3_selected,
+a.nav3_selected{
+	font-size:12px;
+	text-decoration:none;}
+
+a.nav3_selected:hover{
+	text-decoration:none;
+}
+
+.carttext{
+	font-size:10px;
+	text-decoration:none;}
+
+a.carttext{
+	font-size:10px;
+	text-decoration:none;
+}
+
+a.carttext:hover{
+	font-size:10px;
+	text-decoration:underline;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.bgcolor2{
+	font-size:12px;
+}
+
+.navtitle,
+a.navtitle,
+a.navtitle:hover{
+	font-size:12px;
+	letter-spacing:3px;
+}
+
+.navTOP,
+a.navTOP{
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+}
+
+a.navTOP:hover{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.navBOTTOM,
+a.navBOTTOM{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.navBOTTOM:hover{
+	text-decoration:underline;
+}
+
+.NavSpecials,
+a.NavSpecials{
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.NavSpecials:hover{
+	text-decoration:none;
+}

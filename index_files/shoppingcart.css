@@ -1,0 +1,248 @@
+/* breadcrumb and header section */
+#v65-cart-breadcrumb { 
+	display: none;
+    text-indent:-9999px;     
+}
+#v65-cart-breadcrumb-image {
+    display:none; 
+}
+.v65-post-breadcrumb-br {
+    display:none;
+}
+
+.v65-your-cart-title {
+    margin-left:30px;
+}
+
+/* cart column headers */
+#cart-top-rule { 
+	border-top:1px solid #666;
+	padding-bottom:15px;
+}
+
+#cartHeaderLeftCorner,
+#cartHeaderRightCorner,
+.v65-cart-header-blank, 
+.v65-cart-details-blank,
+.colors_lines { 
+    width:0px;
+	background-color:transparent;
+}
+.v65-cart-header-cell, .v65-cart-details-cell, #cart-header, #cart-header font {
+    background-color:transparent; 
+    color:#ccc;
+}
+.v65-cart-header-text v65-cart-header-cell bgcolor1,
+    .v65-cart-header-text v65-cart-header-cell colors_background1,
+    .v65-cart-header-text v65-cart-header-cell colors_background1_text {
+    color:#666 !important;
+}
+#v65-cart-header-itemdescription {
+	/*text-align:center; */
+	padding-left:15px;
+}
+.v65-cart-header-cell font {
+	color: #333 !important;
+}
+
+
+/* cart details, standard products */
+.v65-cart-details-text {
+    padding:20px;
+ }
+.v65-cart-details-text, .carttext, .colors-text {
+    font-size:14px !important;
+    font-weight:normal !important;
+}
+
+.v65-cart-giftcert-details-row td {
+    background-color:white; 
+}    
+.colors_lines {
+    background-color:White !important;
+    border:0px;
+}
+.v65-cart-detail-productimage {
+    border:0px;
+}
+.v65-cart-detail-productimage {
+	padding:4px;
+	text-align:center;
+}
+ .v65-cart-details-separator td {
+    text-indent:-9999px;
+    background-color:White !important;
+}
+.v65-cart-item-remove-span {
+       height:14px;
+       width:14px;
+       background-image: url('/a/i/buttons.png');
+       text-indent:-9999px;     
+ }
+ .v65-cart-details-lastcell {
+    width:0px;
+}
+
+/* coupon entry and display */    
+.v65-cart-coupon-entry-lines { 
+    display:none; 
+}
+#v65-cart-coupon-entry-details-input { 
+    margin:0px 10px; 
+}       
+
+#v65-cart-coupon-entry-details-container { 
+    font-size:13px;
+    padding:15px 0px;
+}
+#v65-cart-coupon-entry-details-container div { 
+    text-align:left !important;
+}
+
+.v65-divider-hr-cell {
+	border-top-width:1px;
+	border-top-style:solid;
+	border-top-color:#666;
+}
+
+
+
+#v65-cart-post-coupon-blank input {
+    margin-top:15px;
+    text-align:right;
+}
+
+/* gift cards */
+ .v65-cart-giftitem-table,
+ .v65-cart-giftitem-details-cell {
+    background-color:#fff;
+    border:0px solid #fff;
+}
+.v65-cart-giftitem-details-cell font {
+    font-size:11px !important;
+}
+.v65-cart-giftitem-table-wrapper {
+    width:100%;
+}
+.v65-cart-giftcert-details-row td,
+.v65-cart-giftcert-details-row td font,
+.v65-cart-giftcert-details-row td font b {
+    color:#E79040 !important;
+    text-transform:uppercase !important;
+    font-weight:bold !important;
+}
+.v65-cart-giftcert-details-cell { 
+		text-align:right; 
+}
+
+
+/* recurring cost items, setup fees */
+.v65-cart-recurring-cost {
+    border:0px;
+    background-color:transparent;
+}
+
+
+/* totals & tax */
+#v65-cart-footer-row {
+    display:none;
+}      
+#v65-cart-total-estimate-blank, 
+.v65-cart-tax-blank {
+	width:1px;
+    text-indent:-9999px;
+}
+.v65-cart-tax-parent-cell {
+    text-align:right !important;
+}
+
+
+/* instructions on how to delete items */
+.v65-cart-item-remove-cell font {
+    display:none;
+}
+
+/* calculate shipping options */
+.v65-cart-left-label {
+    text-align:left;
+    float:left;
+    color:Black;
+}
+.v65-shipping-details-header { 
+    display:none; 
+}    
+#v65-cart-shipping-details-container {
+    padding:15px;
+	text-align: right;
+	background-color:#eee;
+}
+#v65-cart-shipping-details-wrapper {
+    float:right;
+}
+#v65-cart-shipping-details-wrapper td {
+    text-align:left;
+}
+#v65-cart-shipping-details {
+    text-align:right;
+}
+#v65-cart-shipping-details td {
+    padding:5px;
+}
+#v65-cart-shipping-details td, #v65-cart-shipping-details span {
+    color:#7C7C7C !important;
+}
+#v65-cart-shipping-details select, #v65-cart-shipping-details input {
+        width:150px; 
+}
+.v65-cart-shipping-details-input-cell {
+    width:100px !important;
+}   
+#v65-cart-shipping-addresstype input {
+    width:15px;
+	clear:both;
+    display:inline;
+}
+
+/* checkout buttons and fields */
+#v65-cart-shipping-details-text { 
+    vertical-align:top;
+}       
+#v65-cart-checkout-newlogin {
+    background-color:#eee;
+    padding:10px;
+}
+#v65-checkout-form-table {
+    
+}   
+#v65-checkout-newbutton {
+    margin-top:4px;
+	padding:8px;
+	font-size:16px;
+}
+#v65-cart-checkout-newbutton-cell, #v65-cart-checkout-newlogin {
+    text-align:right;
+}
+#btnRecalculate {
+	margin-top:-5px;
+}
+*:first-child+html #btnRecalculate {
+	margin-top:0px;
+}
+#v65-cart-header-total {
+	text-align:right;
+}
+.v65-cart-details-row td input {
+	width:30px;
+	margin: 0px 4px 0px 4px;
+}
+
+#v65-checkout-details-guest div {
+	margin-top:8px;
+}
+#v65-cart-checkout-row-guest-header, #v65-checkout-details-guest {
+	text-align: left; 
+}
+
+#v65-cart-table .v65-item-zebra {
+    background-color: #EEEEEE !important;
+}

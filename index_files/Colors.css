@@ -1,0 +1,35 @@
+BODY {background-color:#ffffff}
+A {color:#666666}
+A:hover {color:#888888}
+TD {color:#000000}
+.colors_background_main {background-color:#ffffff; padding:0;}
+.colors_background_main img{ margin:0 0 5px;}
+
+.colors_background1 {background-color:#ffffff}
+.colors_background1_text {color:#333333}
+.colors_background1_text:hover{color:#333333}
+.colors_background2 {background-color:#ffffff}
+A.colors_background2_text:hover {color:#666666}
+.colors_background2_text {color:#666666}
+.colors_background3 {background-color:#DDDDDD;}
+A.colors_background3_text:hover {color:#666666}
+.colors_background3_text {color:#666666}
+.colors_backgroundlight {background-color:#eeeeee; width:auto !important;}
+.colors_backgroundlight_dark {background-color:#dddddd}
+.colors_backgroundneutral {background-color:#eeeeee}
+.colors_backgroundneutral_dark {background-color:#dddddd}
+.colors_descriptionbox {background-color:#eeeeee}
+.colors_highlight {background-color:#ffbb00}
+.colors_lines {background-color:none !important;}
+.colors_lines_light {background-color:#cccccc}
+.colors_links {color:#666666}
+A.colors_links:hover {color:#888888}
+.colors_menutitle {background-color:#444444}
+.colors_menutitletext {color:#ffffff}
+.colors_pricebox {background-color:#E8E8E8}
+.colors_productname {color:#686867}
+A.colors_productname:hover {color:#686867}
+.colors_productprice {color:#000000}
+A.colors_text:hover {color:#000000}
+.colors_text {color:#000000}
+A.colors_homepage_title{color:#007DE9}
