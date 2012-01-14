@@ -975,7 +975,23 @@ img {border:none !important;}
 	display:none !important;
 }
 
-.pack {  max-width: 120px; }
-.pack-left { float: left; }
-.pack-right { float: right; }
+.pack {  width: 310px; /*background: blue;*/ }
+.pack h1 {  text-align: center; font-weight: normal; color: #666; }
+
+.pack-left { 
+  float: left; 
+  margin-left: 35px;
+}
+.pack-right { 
+  float: right; 
+  margin-right: 35px;
+}
 .pack-wrap {}
+
+.pack-wrap ul { font-size: 18px; margin-left: 0; padding-left: 0; }
+
+.pack-wrap ul li { line-height: 22px; }
+
+.pack-wrap .price { font-weight:bold;  font-size: 30px; color: #651091; float: left; }
+
+h2.phone { font-size: 29px; font-family: "SlabTallXRegular"; }
