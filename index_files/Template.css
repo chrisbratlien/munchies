@@ -988,10 +988,19 @@ img {border:none !important;}
 }
 .pack-wrap {}
 
-.pack-wrap ul { font-size: 18px; margin-left: 0; padding-left: 0; }
+.pack-wrap ul { font-size: 15px; margin-left: 0; padding-left: 0; }
 
-.pack-wrap ul li { line-height: 22px; }
+.pack-wrap ul li { line-height: 22px; font-size: 13px; }
 
-.pack-wrap .price { font-weight:bold;  font-size: 30px; color: #651091; float: left; }
+.pack-wrap .price { font-weight:bold;  font-size: 30px; color: #651091; float: left; margin-right: 10px; }
 
 h2.phone { font-size: 29px; font-family: "SlabTallXRegular"; }
+
+
+
+.right_top a.add-to-cart { margin: 0; }
+.right_top a.add-to-cart img { margin: 18px 0 0 0; }
+
+.includes-heading { font-size: 20px; margin: 0;  }
+
+.includes { margin-top: 5px; }
